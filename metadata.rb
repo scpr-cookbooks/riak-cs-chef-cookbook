@@ -28,7 +28,7 @@ recipe            "enterprise_package", "Installs Riak CS Enterprise"
 recipe            "stanchion", "Installs Stanchion"
 recipe            "control", "Installs Riak CS Control"
 
-depends "apt", "~> 2.3.8"
+depends "apt", "~> 2.3"
 depends "riak", "~> 2.4.18"
 depends "ulimit", "~> 0.3.2"
 depends "yum", "~> 3.4"
